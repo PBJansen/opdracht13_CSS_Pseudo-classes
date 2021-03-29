@@ -1,0 +1,15 @@
+.link1 :hover{
+color: lightblue;
+font-weight: bold;
+}
+.link2 :active{
+    color: red;
+    font-style: italic;
+}
+.link3 :visited{
+    color: yellow;
+}
+input[placeholder]:focus{
+    font-size: 20px;
+    color: green;
+}

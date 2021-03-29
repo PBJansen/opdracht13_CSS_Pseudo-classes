@@ -1,0 +1,35 @@
+ul{
+	list-style: none;
+
+}
+li a{
+	display:flex;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+    background-color: darkblue;
+    color: cornsilk;
+}
+li input{
+	display:flex;
+    justify-content: space-between;
+	width:120px;
+	float:left;
+	margin-left:2px;
+}
+.currentPage a {
+	display:flex;
+    justify-content: space-between;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+    background-color: rgb(117, 117, 252);
+}
+li a:hover{
+    background-color: cyan;
+}
+#site-search:focus{
+    border: 5px outset rgb(235, 29, 29);
+}
